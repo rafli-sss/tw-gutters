@@ -1,0 +1,17 @@
+{
+  "name": "tw-gutters-padding",
+  "version": "1.0.0",
+  "description": "TailwindCSS plugin that adds gutters class using padding just like Bootstrap",
+  "author": "First Guardian <raflisugiarto2004@gmail.com> (https://1stGuardian.github.io)",
+  "main": "src/index.js",
+  "keywords": [
+    "tailwindcss",
+    "flex",
+    "gap",
+    "gutters"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
