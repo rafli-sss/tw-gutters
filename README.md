@@ -2,7 +2,7 @@
 
 <img alt="npm version" src="https://badge.fury.io/js/tw-gutters.svg"> <img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg">
 
-tw-gutters is a TailwindCSS plugin that adds gutter classes using padding from TailwindCSS default spacing, similar to Bootstrap. This plugin allows you to easily add gutters (space between elements) to your website layout quickly by utilizing the padding property on specific elements.
+tw-gutters is a TailwindCSS plugin that adds gutter classes from TailwindCSS default spacing. This plugin allows you to easily add gutters (space between flex item) to your website layout quickly.
 <br /><br />
 
 ## Installation
@@ -12,6 +12,7 @@ You can install the plugin via npm. Make sure you have TailwindCSS installed bef
 ```bash
 npm install -D tw-gutters
 ```
+
 <br />
 
 ## Usage
@@ -42,9 +43,11 @@ Now, you can use gutter classes on your elements in your HTML file:
   <div class="flex-initial w-1/2">Content</div>
 </div>
 ```
+
 <br />
 
 ### With Options
+
 ```js
 // tailwind.config.js
 
@@ -52,7 +55,7 @@ module.exports = {
   // Other configurations
   plugins: [
     // Other plugins
-    require('tw-gutters')({useShortClass : true}),
+    require('tw-gutters')({ useShortClass: true }),
   ],
 };
 ```
@@ -66,6 +69,7 @@ Now, you can use gutter classes on your elements in your HTML file:
   <div class="flex-initial w-1/2">Content</div>
 </div>
 ```
+
 <br />
 
 ## License
